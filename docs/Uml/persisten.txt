@@ -1,0 +1,2 @@
+Consideramos que todas las clases son persistentes, puesto que todas las clases
+tienen getters y setters y nada mas.

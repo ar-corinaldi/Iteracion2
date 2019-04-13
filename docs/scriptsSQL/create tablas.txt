@@ -1,0 +1,115 @@
+CREATE TABLE CATALOGO
+( 
+  id_servicio NUMBER NOT NULL,
+  id_producto NUMBER NOT NULL
+);
+
+CREATE TABLE CONSUMOS
+( 
+  id NUMBER NOT NULL,
+  fecha TIMESTAMP NOT NULL,
+  id_usuario NUMBER NOT NULL,
+  tipo_documento_usuario VARCHAR(50) NOT NULL,
+  id_servicio NUMBER NOT NULL,
+  id_habitacion NUMBER NOT NULL
+);
+
+CREATE TABLE HABITACIONES
+( 
+  id NUMBER NOT NULL,
+  cuenta_habitacion DECIMAL NOT NULL,
+  tipo_habitacion NUMBER NOT NULL
+  id_hotel NUMBER NOT NULL
+);
+
+CREATE TABLE HOTELES
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR(50) NOT NULL,
+  pais VARCHAR(50),
+  ciudad VARCHAR(50),
+  capacidad INTEGER NOT NULL
+);
+
+
+CREATE TABLE PLANES_DE_CONSUMO
+( 
+  id NUMBER NOT NULL,
+  descripcion VARCHAR2(500),
+  descuento DECIMAL NOT NULL,
+  fecha_inicio TIMESTAMP,
+  fecha_final TIMESTAMP,
+  tipo_plan_consumo NUMBER NOT NULL,
+  id_hotel NUMBER NOT NULL
+);
+
+CREATE TABLE PRODUCTOS
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR2(50) NOT NULL,
+  descripcion varchar2(500),
+  precio DECIMAL NOT NULL
+);
+
+CREATE TABLE RESERVAS
+( 
+  id NUMBER NOT NULL,
+  num_persona VARCHAR2(50) NOT NULL,
+  entrada TIMESTAMP NOT NULL,
+  salida TIMESTAMP NOT NULL,
+  id_plan_consumo NUMBER,
+  id_habitacion NUMBER NOT NULL
+);
+
+CREATE TABLE SERVICIOS
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR2(50) NOT NULL,
+  descripcion varchar2(500),
+  costo DECIMAL NOT NULL,
+  cargado_habitacion INTEGER NOT NULL,
+  capacidad INTEGER NOT NULL,
+  reservado INTEGER NOT NULL,
+  fecha_inicial TIMESTAMP,
+  fecha_final TIMESTAMP,
+  id_servicio NUMBER NOT NULL,
+  id_hotel NUMBER NOT NULL
+);
+
+CREATE TABLE TIPO_HABITACIONES
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR2(50) NOT NULL,
+  costo_noche DECIMAL NOT NULL,
+  capacidad INTEGER NOT NULL
+);
+
+CREATE TABLE TIPO_PLANES_DE_CONSUMO
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE TIPO_SERVICIOS
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE TIPO_USUARIOS
+( 
+  id NUMBER NOT NULL,
+  nombre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE USUARIOS
+( 
+  num_identidad NUMBER NOT NULL,
+  tipo_documento VARCHAR2(50) NOT NULL,
+  nombre VARCHAR2(50) NOT NULL,
+  apellido VARCHAR2(50) NOT NULL,
+  correo VARCHAR2(100),
+  tipo_usuario NUMBER NOT NULL,
+  id_reserva NUMBER NOT NULL,
+  id_hotel NUMBER NOT NULL
+);
