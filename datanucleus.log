@@ -1,0 +1,66 @@
+11:33:26,938 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+11:33:26,963 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.1.10 at URL file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-rdbms-5.1.10.jar.
+11:33:26,978 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-rdbms-5.1.10.jar!/plugin.xml.
+11:33:26,987 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.1.10 at URL file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-core-5.1.10.jar.
+11:33:26,990 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-core-5.1.10.jar!/plugin.xml.
+11:33:26,995 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.1.7 at URL file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-api-jdo-5.1.7.jar.
+11:33:27,000 (main) DEBUG [DataNucleus.General] - Loading extension points and extensions from plug-in file jar:file:/C:/Users/allan/OneDrive/Documents/Andes/CuartoSemestre/Sistrans/Iteracion1/lib/datanucleus-api-jdo-5.1.7.jar!/plugin.xml.
+11:33:27,015 (main) INFO  [DataNucleus.Persistence] - Property negocio unknown - will be ignored
+11:33:27,015 (main) INFO  [DataNucleus.Persistence] - Property interfaz unknown - will be ignored
+11:33:27,015 (main) INFO  [DataNucleus.Persistence] - Property persistencia unknown - will be ignored
+11:33:27,034 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+11:33:27,095 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+11:33:27,096 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+11:33:27,130 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigDecimal; to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for [Ljava.math.BigInteger; to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : java.lang.String,int[]
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.image.BufferedImage to : byte[],java.nio.ByteBuffer
+11:33:27,131 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : byte[],java.lang.String,java.nio.ByteBuffer
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Character,java.lang.Integer
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.lang.String,java.lang.Long
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.String,java.lang.Long,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.String,java.lang.Long,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.String,java.lang.Long,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Duration to : java.lang.Double,java.lang.String,java.lang.Long
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Instant to : java.lang.String,java.sql.Timestamp,java.util.Date,java.lang.Long
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDate to : java.sql.Date,java.lang.String,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDateTime to : java.lang.String,java.sql.Timestamp,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalTime to : java.lang.String,java.util.Date,java.lang.Long,java.sql.Time
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.MonthDay to : java.sql.Date,java.lang.String,int[],java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetDateTime to : java.lang.String,java.sql.Timestamp,java.util.Date
+11:33:27,132 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetTime to : java.lang.String,java.lang.Long,java.sql.Time
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Period to : java.lang.String,int[]
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Year to : java.lang.String,java.lang.Integer
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.YearMonth to : java.sql.Date,java.lang.String,int[],java.util.Date
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZonedDateTime to : java.lang.String,java.sql.Timestamp
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : [Ljava.lang.Object;,java.lang.String,java.sql.Timestamp,java.util.Date
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.String,java.lang.Long
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+11:33:27,133 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=true
+11:33:27,133 (main) DEBUG [DataNucleus.MetaData] - Registering listener for metadata initialisation
+11:33:27,137 (main) DEBUG [DataNucleus.Datastore] - Creating StoreManager for datastore
+11:33:27,189 (main) ERROR [DataNucleus.Datastore] - Exception thrown creating StoreManager : Unable to create transactional datasource for connections due to invalid/insufficient input. Consult the log for details and/or review the settings of "datastore.connectionXXX" properties

@@ -1,7 +1,8 @@
-﻿{
+{
 	"title": "Aplicación transaccional de Parranderos Uniandes",
 	"frameH": 600,
 	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
 	"menuBar":
 	[
 		{ "menuTitle": "TipoBebida",
@@ -9,19 +10,19 @@
 			[
 				{
 					"label": "Adicionar",
-					
+					"event": "adicionarTipoBebida"
 				},
 				{
 					"label": "Listar",
-					
+					"event": "listarTipoBebida"
 				},
 				{
 					"label": "Borrar por Id",
-					
+					"event": "eliminarTipoBebidaPorId"
 				},
 				{
 					"label": "Buscar por Nombre",
-					
+					"event": "buscarTipoBebidaPorNombre"
 				}
 			]
 		},
@@ -30,23 +31,23 @@
 			[
 				{
 					"label": "Mostrar log Parranderos",
-					
+					"event": "mostrarLogParranderos"
 				},
 				{
 					"label": "Mostrar log datanucleus",
-					
+					"event": "mostrarLogDatanuecleus"
 				},
 				{
 					"label": "Limpiar log de parranderos",
-					
+					"event": "limpiarLogParranderos"
 				},
 				{
 					"label": "Limpiar log de datanucleus",
-					
+					"event": "limpiarLogDatanucleus"
 				},
 				{
 					"label": "Limpiar Base de Datos",
-					
+					"event": "limpiarBD"
 				}
 			]
 		},		

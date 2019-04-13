@@ -1,5 +1,5 @@
-锘縶
-	"title": "Aplicaci贸n transaccional de Parranderos Uniandes",
+{
+	"title": "Aplicaci髇 transaccional de HotelAndes Uniandes",
 	"frameH": 600,
 	"frameW": 800,
 	"menuBar":
@@ -9,19 +9,19 @@
 			[
 				{
 					"label": "Adicionar",
-					
+					"event": "adicionarTipoBebida"
 				},
 				{
 					"label": "Listar",
-					
+					"event": "listarTipoBebida"
 				},
 				{
 					"label": "Borrar por Id",
-					
+					"event": "eliminarTipoBebidaPorId"
 				},
 				{
 					"label": "Buscar por Nombre",
-					
+					"event": "buscarTipoBebidaPorNombre"
 				}
 			]
 		},
@@ -29,32 +29,32 @@
 		  "options":
 			[
 				{
-					"label": "Mostrar log Parranderos",
-					
+					"label": "Mostrar log HotelAndes",
+					"event": "mostrarLogHotelAndes"
 				},
 				{
 					"label": "Mostrar log datanucleus",
-					
+					"event": "mostrarLogDatanuecleus"
 				},
 				{
-					"label": "Limpiar log de parranderos",
-					
+					"label": "Limpiar log de HotelAndes",
+					"event": "limpiarLogParranderos"
 				},
 				{
 					"label": "Limpiar log de datanucleus",
-					
+					"event": "limpiarLogDatanucleus"
 				},
 				{
 					"label": "Limpiar Base de Datos",
-					
+					"event": "limpiarBD"
 				}
 			]
 		},		
-		{ "menuTitle": "Documentaci贸n",
+		{ "menuTitle": "Documentaci髇",
 		  "options":
 			[
 				{
-					"label": "Presentaci贸n general",
+					"label": "Presentaci髇 general",
 					"event": "mostrarPresentacionGeneral"
 				},
 				{
@@ -66,7 +66,7 @@
 					"event": "mostrarEsquemaBD"
 				},
 				{
-					"label": "Script creaci贸n de la BD",
+					"label": "Script creaci髇 de la BD",
 					"event": "mostrarScriptBD"
 				},
 				{
@@ -74,7 +74,7 @@
 					"event": "mostrarArqRef"
 				},
 				{
-					"label": "Javadoc Parranderos",
+					"label": "Javadoc HotelAndes",
 					"event": "mostrarJavadoc"
 				}
 			]
@@ -91,4 +91,3 @@
 		
 	]
 }
-	

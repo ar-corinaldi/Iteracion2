@@ -13,6 +13,7 @@
             <property name="javax.jdo.option.ConnectionUserName" value="ISIS2304B101910"/>
             <property name="javax.jdo.option.ConnectionPassword" value="vYLKnurbFM"/>
             <property name="javax.jdo.option.Mapping" value="oracle"/>
+
             <property name="datanucleus.schema.autoCreateAll" value="false"/>
             <property name="datanucleus.query.sql.allowAll" value="true"/>
         </properties>
