@@ -1,0 +1,22 @@
+{
+	"title": "Nombres de las tablas de HotelAndes Uniandes para la aplicación A",
+	"unidadPersistencia": "HotelAndes",
+	"tablas":
+	[
+		"Hotel_sequence",
+		"CATALOGO",
+		"CONSUMOS",
+		"HABITACIONES",
+		"HOTELES",
+		"PLANES_DE_CONSUMO",
+		"PRODUCTOS",
+		"RESERVAS",
+		"SERVICIOS",
+		"TIPO_HABITACIONES",
+		"TIPO_PLANES_DE_CONSUMO",
+		"TIPO_SERVICIOS",
+		"TIPO_USUARIOS",
+		"USUARIOS",
+		"CHECK"
+	]
+}
